@@ -4,7 +4,7 @@
 
 AbleCodex is an Android app that gives you a comfortable chat interface for [Claude Code](https://claude.com/claude-code) running on your laptop. Your phone stays in sync with every Claude Code session you have open on the computer — and with any new one you start — so you can dictate prompts, listen to replies, and switch between projects without sitting at your desk.
 
-Open beta. Free.
+> **Status: closed beta — validating interest.** The Android app is built and working; the helper that runs on the computer is currently a Node.js script you launch from a terminal (no installer or system tray yet, only Windows validated end-to-end). Pricing for the eventual public release is being figured out. **Today, AbleCodex is free.** If the niche resonates with you, install it and [start a Discussion](https://github.com/AbleCodex/ablecodex/discussions) — that feedback is what tells us whether to keep going.
 
 ---
 
@@ -107,12 +107,16 @@ Spanish and English live-switchable from Settings. The whole app re-renders inst
 
 ---
 
-## Get started in five minutes
+## Get started (about ten minutes during the beta)
 
-1. Install [Claude Code](https://docs.claude.com/en/docs/claude-code/quickstart) on your computer if you haven't already.
-2. Install the AbleCodex helper on the computer and the app on your phone — see [Installation](https://github.com/AbleCodex/ablecodex/wiki/Installation).
-3. Pair the two with a six-digit code, once — see [First-Time Setup](https://github.com/AbleCodex/ablecodex/wiki/First-Time-Setup).
-4. Tap a suggestion bubble and you're rolling.
+1. Install [Claude Code](https://docs.claude.com/en/docs/claude-code/quickstart) on your computer. Confirm `claude --version` works in a terminal.
+2. Install Node.js 20+ if you don't already have it.
+3. Clone this repo, `cd ablecodex/bridge`, run `npm install`, then `node index.js`. Keep that terminal open — it's the helper. See [Installation](https://github.com/AbleCodex/ablecodex/wiki/Installation).
+4. Download the APK from the [Releases](https://github.com/AbleCodex/ablecodex/releases) page (or ask in Discussions if no signed build is up yet). Install it on your Android phone.
+5. Open AbleCodex on the phone → Start → scan the QR code in the helper terminal → you're paired. See [First-Time Setup](https://github.com/AbleCodex/ablecodex/wiki/First-Time-Setup).
+6. Tap a suggestion bubble and you're rolling.
+
+> Today's flow is intentionally rough — installers, system-tray UI, and auto-start are on the [Roadmap](https://github.com/AbleCodex/ablecodex/wiki/Roadmap). If a manual setup blocks you, that itself is useful feedback — say so in Discussions.
 
 Full documentation lives in the [Wiki](https://github.com/AbleCodex/ablecodex/wiki).
 
