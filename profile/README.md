@@ -70,6 +70,20 @@ Tap the speaker icon under any reply and Claude reads it back to you. Three spee
 <tr>
 <td valign="top">
 
+### Settings you'll actually use
+
+Pick the font you read best in, choose what fires a notification, reduce motion if animations bother you, export a backup of your configuration. Nothing you have to touch on day one; everything you might want on day thirty.
+
+</td>
+<td valign="top" align="center">
+
+<img src="Settings.png" width="260" alt="AbleCodex Settings — Transcription, Language, Typography, Notifications, Accessibility, Data and backup, About" />
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 ### One UI, two languages
 
 Spanish and English live-switchable from Settings. The whole app re-renders instantly, and Claude follows the same language by default for new replies. More languages on the roadmap.
