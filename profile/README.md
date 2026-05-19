@@ -4,7 +4,7 @@
 
 AbleCodex is an Android app that gives you a comfortable chat interface for [Claude Code](https://claude.com/claude-code) running on your laptop. Your phone stays in sync with every Claude Code session you have open on the computer — and with any new one you start — so you can dictate prompts, listen to replies, and switch between projects without sitting at your desk.
 
-> **Status: closed beta — validating interest.** The Android app is built and working; the helper that runs on the computer is currently a Node.js script you launch from a terminal (no installer or system tray yet, only Windows validated end-to-end). Pricing for the eventual public release is being figured out. **Today, AbleCodex is free.** If the niche resonates with you, install it and [start a Discussion](https://github.com/AbleCodex/ablecodex/discussions) — that feedback is what tells us whether to keep going.
+> **Status: closed beta — validating interest. Not yet downloadable.** AbleCodex is in active development. There's no APK, no installer, and no public source code yet — we're showing the documentation first to test how the value proposition reads. Pricing for the public release is TBD; the beta will be free for the first wave of users. **If what you see below sounds useful, [start a Discussion](https://github.com/AbleCodex/ablecodex/discussions) to request early access** — that demand is what decides whether we keep going.
 
 ---
 
@@ -107,25 +107,22 @@ Spanish and English live-switchable from Settings. The whole app re-renders inst
 
 ---
 
-## Get started (about ten minutes during the beta)
+## Want early access?
 
-1. Install [Claude Code](https://docs.claude.com/en/docs/claude-code/quickstart) on your computer. Confirm `claude --version` works in a terminal.
-2. Install Node.js 20+ if you don't already have it.
-3. Clone this repo, `cd ablecodex/bridge`, run `npm install`, then `node index.js`. Keep that terminal open — it's the helper. See [Installation](https://github.com/AbleCodex/ablecodex/wiki/Installation).
-4. Download the APK from the [Releases](https://github.com/AbleCodex/ablecodex/releases) page (or ask in Discussions if no signed build is up yet). Install it on your Android phone.
-5. Open AbleCodex on the phone → Start → scan the QR code in the helper terminal → you're paired. See [First-Time Setup](https://github.com/AbleCodex/ablecodex/wiki/First-Time-Setup).
-6. Tap a suggestion bubble and you're rolling.
+AbleCodex isn't downloadable today. The way to get on the list:
 
-> Today's flow is intentionally rough — installers, system-tray UI, and auto-start are on the [Roadmap](https://github.com/AbleCodex/ablecodex/wiki/Roadmap). If a manual setup blocks you, that itself is useful feedback — say so in Discussions.
+1. Have [Claude Code](https://claude.com/claude-code) already installed on your computer (this is a hard prerequisite — AbleCodex is a remote control for it).
+2. Open a thread in [Discussions](https://github.com/AbleCodex/ablecodex/discussions). Tell us your operating system, how you currently use Claude Code, and what you'd want from a phone client. A couple of sentences is enough.
+3. Click **Watch** on the repo so you're notified when the first beta build lands.
 
-Full documentation lives in the [Wiki](https://github.com/AbleCodex/ablecodex/wiki).
+We're being deliberate about who gets early access — the install is still rough and we'd rather have ten happy users than a hundred frustrated ones. Concrete interest is what tells us when to expand.
+
+Full feature documentation lives in the [Wiki](https://github.com/AbleCodex/ablecodex/wiki).
 
 ---
 
 ## Links
 
 - 📘 [Documentation Wiki](https://github.com/AbleCodex/ablecodex/wiki)
-- 📦 [Releases](https://github.com/AbleCodex/ablecodex/releases/latest)
-- 💬 [Discussions](https://github.com/AbleCodex/ablecodex/discussions)
-- 🐛 [Issues](https://github.com/AbleCodex/ablecodex/issues)
+- 💬 [Discussions](https://github.com/AbleCodex/ablecodex/discussions) (request early access here)
 - 🗺️ [Roadmap](https://github.com/AbleCodex/ablecodex/wiki/Roadmap)
