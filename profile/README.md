@@ -42,14 +42,28 @@ Your phone sees every Claude Code session you have open on the computer — the 
 <tr>
 <td valign="top">
 
-### Voice in, voice out
+### Voice input
 
-Dictate prompts with the microphone — the waveform reacts to your voice as you speak. Have Claude's reply read back to you, either with your phone's built-in text-to-speech or with a high-quality ElevenLabs voice linked to your own account.
+Dictate prompts with the microphone — the waveform reacts to your voice as you speak. Android's built-in speech recognizer transcribes what you say; edit the text or send it straight away.
 
 </td>
 <td valign="top" align="center">
 
 <img src="Audio-Recording.png" width="260" alt="AbleCodex recording a voice message — moving waveform in place of the composer" />
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### Voice playback
+
+Tap the speaker icon under any reply and Claude reads it back to you. Three speed pills (1x, 1.5x, 2x) work mid-playback. Use the phone's built-in text-to-speech for free, or link your own ElevenLabs account for a high-quality voice — AbleCodex falls back to the system voice if the API is unreachable.
+
+</td>
+<td valign="top" align="center">
+
+<img src="Waveform.png" width="260" alt="AbleCodex playing back a reply — wave animation above the composer, speed pills active" />
 
 </td>
 </tr>
