@@ -21,7 +21,7 @@ A clean Android UI built for one job: talking to Claude Code. Bubbles, reply car
 </td>
 <td width="50%" valign="top" align="center">
 
-<img src="profile/Chat.png" width="260" alt="AbleCodex chat — header, your message, Claude streaming a reply" />
+<img src="Chat.png" width="260" alt="AbleCodex chat — header, your message, Claude streaming a reply" />
 
 </td>
 </tr>
@@ -35,7 +35,7 @@ Your phone sees every Claude Code session you have open on the computer — the 
 </td>
 <td valign="top" align="center">
 
-<img src="profile/Drawer.png" width="260" alt="AbleCodex drawer — chat list with green status dots and the New chat button" />
+<img src="Drawer.png" width="260" alt="AbleCodex drawer — chat list with green status dots and the New chat button" />
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ Dictate prompts with the microphone — the waveform reacts to your voice as you
 </td>
 <td valign="top" align="center">
 
-<img src="profile/Audio-Recording.png" width="260" alt="AbleCodex recording a voice message — moving waveform in place of the composer" />
+<img src="Audio-Recording.png" width="260" alt="AbleCodex recording a voice message — moving waveform in place of the composer" />
 
 </td>
 </tr>
@@ -63,7 +63,7 @@ Spanish and English live-switchable from Settings. The whole app re-renders inst
 </td>
 <td valign="top" align="center">
 
-<img src="profile/Language-Picker-EN.png" width="260" alt="App language picker showing Spanish and English options" />
+<img src="Language-Picker-EN.png" width="260" alt="App language picker showing Spanish and English options" />
 
 </td>
 </tr>
